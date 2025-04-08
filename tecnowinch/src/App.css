@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f8fb; /* color pastel claro tipo celeste-gris del logo */
+  color: #003366;
+}
+
+/* Hero container */
+.hero-section {
+  padding: 60px 20px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #f4f8fb 0%, #ffffff 100%);
+  color: #003366;
+}
+
+/* Título */
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/* Parte destacada con amarillo del logo */
+.hero-section .highlight {
+  color: #FF6600; /* tono naranja/amarillo del logo */
+}
+
+/* Subtítulo */
+.hero-section p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.hero-section em {
+  font-style: italic;
+  color: #1a1a1a;
+  font-weight: 500;
+}

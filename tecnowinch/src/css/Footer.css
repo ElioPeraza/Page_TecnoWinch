@@ -1,0 +1,19 @@
+.footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer .socials a {
+    margin: 0 10px;
+    color: #FF6600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer .socials a:hover {
+    color: #ffffff;
+  }
+  

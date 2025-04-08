@@ -1,0 +1,56 @@
+.form-contacto {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form-contacto label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .form-contacto input,
+  .form-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .form-contacto textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .form-contacto button {
+    background-color: #f57c00;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-contacto button:hover {
+    background-color: #d86600;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    .form-contacto {
+      padding: 20px;
+    }
+  }
+  

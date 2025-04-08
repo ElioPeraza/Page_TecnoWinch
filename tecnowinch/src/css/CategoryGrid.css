@@ -1,0 +1,16 @@
+.category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #003366;
+    margin: 30px 0 10px;
+  }
+  

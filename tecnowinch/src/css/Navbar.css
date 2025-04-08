@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-left img {
+    height: 40px;
+  }
+  
+  .navbar-left h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 10px 0 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #FF6600;
+  }
+  
+  .navbar-title {
+    text-decoration: none;
+    color: #FF6600;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* 👇 RESPONSIVE DESIGN 👇 */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+    }
+  
+    .navbar-left {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .navbar-links a {
+      padding: 8px 0;
+    }
+  }
+  
